@@ -1,0 +1,74 @@
+/* apxazeti page */
+@media (max-width: 1000px) {
+    .afxazeti-recepts{ flex-direction:column; align-items:center;}
+    .offer{flex-direction:column; align-items:center;}
+    .offer_img_and_addres{width: 100%;}
+    .offer_map{width: 100%;}
+    .ft_full{flex-direction:column; align-items:center; height: 100%;}
+    .ft_first_column{margin-bottom: 30px;}
+}
+
+@media (max-width: 600px) {
+    .apxazeti_header{height:125px;}
+    .header_text{font-size:24px;}
+    .afxazeti-recepts{flex-direction: column;}
+    .recept{ height:350px;}
+    .recept_title{ font-size: 12px; height: 30px;}        
+    .recept_titel_ingredients{ width:30%; height: 250px;}
+    .recept_ingredients{ height:220px;} 
+    .ingredients_list{ font-size:12px;list-style-type:none; padding-left:2px;}
+    .cooking{height:100px; font-size:12px;}
+    .recept_img_afxazura{height:250px; width:70%;}
+    .recept_img_ashvchapani {height:250px; width:70%;}
+    .recept_img_adjika{height:250px; width:70%;}
+    .recept_img_ayrdca{height:250px; width:70%;}
+    .footer_list{font-size: 12px;}
+    .about_us{font-size: 12px;}
+}
+
+/* achara page */
+@media(max-width:1000px){
+    .achara_header_adress{display:none}
+    .achara_recept{flex-direction:column; align-items:center; margin-top: 20px;}
+    .achara_recept_img_acharuli{width: 60%;}
+    .achara_recept_video{width: 60%;margin-top: 5px; margin-left: 0px;}
+    .achara_slide2_body{background-color: burlywood;}
+}
+
+@media(max-width:600px){
+    .achara_header{height:150px;}
+    .achara_header_GoToMain{width: 100%;text-align:center ;}
+    .achara_header_title{font-size:20px;}
+    .achara_recept{height:300px;}
+    .achara_recept_img_acharuli{height: 150px;}
+    .achara_recept_video{height: 150px;}
+}
+.menu_768px{display: none;}
+
+@media(max-width:1024px){
+    .qvevri{display:none;}
+    .Menu{width:100%;}
+    .log_in_slide{width: 100%;}
+    .login_logo_img{width: 110px;}
+}
+
+@media(max-width:768px){
+    .slide_1{height:200px;}
+    .Menu{display: none;}
+    .menu_768px{display:flex;border: 2px solid darkred;}    
+    .menu_768px_title{height:150px;} 
+    .region{border: 2px solid darkred;}
+    .login_header{height: 200px;}
+    .login_logo_img{width: 80px;}
+
+}
+
+@media(max-width:480px){
+    .slide_1{background-image: url(../image/heder_480px.jpg);}
+    .heder_search{height:30px;}
+    .login_header{height: 150px;}
+    .login_logo_img{width: 30px;}
+    .wrapper_log_in{width: 300px; height: 400px;}
+    .noaccount{font-size: 12px;}
+}   
+
